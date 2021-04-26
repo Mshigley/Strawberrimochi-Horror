@@ -4,10 +4,23 @@ body {
 h1 {
 	color: #FF0000;
 	font-family: 'Creepster', cursive;
+	font-size: 30px;
+} 
+@media screen and (max-width: 480px) {
+	nav a {
+		height: 400px;
+	}
+	nav a ul {
+		margin: 1rem 0;
+		flex: none;
+		display: block;
+		padding: 0;
+	}
 }
 nav a{
 	color: #ffffff ;
 	font-family: roboto , sans-serif;
+	font-size: 25px;
 }
 h2 {
 	color: #FF0000;

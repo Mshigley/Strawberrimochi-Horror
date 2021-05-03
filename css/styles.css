@@ -4,7 +4,8 @@ body {
 h1 {
 	color: #FF0000;
 	font-family: 'Creepster', cursive;
-	font-size: 30px;
+	font-size: 28px;
+	<meta content="width=device-width, initial-scale=1" name="viewport" /> 
 } 
 @media screen and (max-width: 480px) {
 	nav a {
@@ -47,3 +48,19 @@ table {
 	color: #FF6B6B;
 	font-family: roboto , sans-serif;
 }
+img {
+	max-width: 100%;
+}
+footer {
+	position: stack;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #7f0000;
+	color: white;
+	text-align: center;
+
+  padding-top: 25px;
+  padding-bottom: 25px;
+ }
+
